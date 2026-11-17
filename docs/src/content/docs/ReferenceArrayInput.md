@@ -83,7 +83,7 @@ You can tweak how `<ReferenceArrayInput>` fetches the possible values using the 
 | `label` | Optional | `string` | -  | Useful only when `ReferenceArrayInput` is in a Filter array, the label is used as the Filter label. |
 | `page` | Optional | `number` | 1  | The current page number |
 | `perPage` | Optional | `number` | 25  | Number of suggestions to show |
-| `queryOptions` | Optional | [`UseQueryOptions`](https://tanstack.com/query/v5/docs/react/reference/useQuery) | `{}` | `react-query` client options |
+| `queryOptions` | Optional | [`UseQueryOptions`](https://tanstack.com/query/v5/docs/framework/react/reference/useQuery) | `{}` | `react-query` client options |
 | `sort` | Optional | `{ field: String, order: 'ASC' or 'DESC' }` | `{ field: 'id', order: 'DESC' }` | How to order the list of suggestions |
 
 ## `format`

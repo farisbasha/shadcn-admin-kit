@@ -423,7 +423,7 @@ You may also remove the `<ExportButton>` by passing `false` to the `exporter` pr
 
 ## Data Fetching Options
 
-`<List>` accepts a `queryOptions` prop to pass [query options](https://marmelab.com/ra-core/actions/#query-options) to the react-query client. Check react-query's [`useQuery` documentation](https://tanstack.com/query/v5/docs/react/reference/useQuery) for the list of available options.
+`<List>` accepts a `queryOptions` prop to pass [query options](https://marmelab.com/ra-core/actions/#query-options) to the react-query client. Check react-query's [`useQuery` documentation](https://tanstack.com/query/v5/docs/framework/react/reference/useQuery) for the list of available options.
 
 This can be useful e.g. to pass [a custom `meta`](https://marmelab.com/ra-core/actions/#meta-parameter) to the `dataProvider.getList()` call.
 

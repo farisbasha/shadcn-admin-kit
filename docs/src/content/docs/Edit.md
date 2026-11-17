@@ -279,7 +279,7 @@ const PostEdit = () => (
 );
 ```
 
-Refer to the [useQuery documentation](https://tanstack.com/query/v5/docs/react/reference/useQuery) in the react-query website for a list of the possible options.
+Refer to the [useQuery documentation](https://tanstack.com/query/v5/docs/framework/react/reference/useQuery) in the react-query website for a list of the possible options.
 
 ## Mutation Options
 
@@ -297,7 +297,7 @@ const PostEdit = () => (
 );
 ```
 
-Refer to the [useMutation documentation](https://tanstack.com/query/v5/docs/react/reference/useMutation) in the react-query website for a list of the possible options.
+Refer to the [useMutation documentation](https://tanstack.com/query/v5/docs/framework/react/reference/useMutation) in the react-query website for a list of the possible options.
 
 You can also use `mutationOptions` to override success or error side effects.
 
